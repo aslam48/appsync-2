@@ -41,6 +41,4 @@ export async function getStaticProps({params}){
             post: postData.data.getTodo
         }
     }
-        
-    
 }
