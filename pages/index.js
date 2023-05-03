@@ -21,7 +21,6 @@ fetchPosts()
        <h1 className="text-3xl font-bold underline">
       my post 
     </h1>
-
    
     {todos.map((todo) => (
       <p key={todo.id}>{todo.content}</p>
